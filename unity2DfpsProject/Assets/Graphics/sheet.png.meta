@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: d13278a0727d32d40b20969211348cb9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: PlayerShip
-    21300002: Enemy01
-    21300004: Bullet01
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PlayerShip
+  - first:
+      213: 21300002
+    second: Enemy01
+  - first:
+      213: 21300004
+    second: Bullet01
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -91,6 +99,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: edf783843d962304b835c84cff0b0e37
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -111,6 +120,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 8940a00bf94624244ab8bb31f0ba015a
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -131,6 +141,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: ac434dbf5a7d71243b5a50786eef43c8
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -139,10 +150,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -27,7 +27,8 @@ public class DamageHandler : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter2D() {
+	void OnTriggerEnter2D( ) {
+
 		health--;
 
 		if(invulnPeriod > 0) {

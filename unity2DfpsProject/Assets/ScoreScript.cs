@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
-public class Score : MonoBehaviour
+public class ScoreScript : MonoBehaviour
 {
-
+    
 	public static  int scoreValue = 0;
      Text score;
     
