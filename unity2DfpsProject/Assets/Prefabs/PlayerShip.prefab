@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8430400156332473761}
   - component: {fileID: 3254299688008367962}
   - component: {fileID: 1891081747362765459}
+  - component: {fileID: -5710955748687613233}
   m_Layer: 8
   m_Name: PlayerShip
   m_TagString: Player
@@ -118,7 +119,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -286,3 +287,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5710955748687613233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb667d4fe3a5494aa5eb54fcc306862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
