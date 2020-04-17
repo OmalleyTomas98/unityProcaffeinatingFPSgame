@@ -5,9 +5,20 @@ using UnityEngine;
 public class pickUp : MonoBehaviour
 {
 
-	void onTriggerEnter2D()
+	void onTriggerEnter (Collider other)
 	{
-		Debug.Log ("Trigger");
+
+
+		if(other.CompareTag("Player"))
+		{
+			PlayerPickUp();
+		}
+
 	}   
+
+	void PlayerPickUp()
+	{
+		Debug.Log("Power up picked up");
+	}
     
 }
